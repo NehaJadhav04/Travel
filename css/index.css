@@ -146,17 +146,18 @@ img,video {
   margin-right:1rem;
 }
 
-.nav-link {
+.nav-item a {
   font-size: 22px;
   display: inline-block;
   padding: 1rem;
   color: var(--white);
+  text-decoration: none;
 }
 .nav-item .active
 {
   color: orange;
 }
-.nav-link:hover
+.nav-item a:hover
 {
   color: orange;
 }
@@ -540,7 +541,7 @@ img,video {
   }
 }
 .container-fluid {
-  width: 1300px;
+  width: 1400px;
   }
 .footer .row {
 	display: flex;

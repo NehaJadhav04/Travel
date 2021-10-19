@@ -2,7 +2,7 @@
     --color-1: #2f3240;
 }
 body{
-	font-family: "Geogria", Times, serif;;
+	font-family: "Geogria", Times, serif;
 	background-color: #e8eef3;
 }
 *{
@@ -10,6 +10,13 @@ body{
 	margin:0;
 	padding:0;
 }
+.border{
+	width: 160px;
+	height: 5px;
+	background:orange;
+	margin:-25px auto;
+	margin-bottom:20px;
+  }
 .name
 {
 	color: orange;
@@ -46,9 +53,10 @@ a{
 	padding:5px 15px;
 }
 .header .logo a{
-	font-size: 33px;
+	font-size: 30px;
 	color: #ffffff;
 	text-transform: capitalize;
+	text-decoration: none;
 }
 .header .nav ul li{
 	display: inline-block;
@@ -56,11 +64,12 @@ a{
 }
 .header .nav ul li a{
 	display: block;
-	font-size: 25px;
+	font-size: 23px;
 	text-transform: capitalize;
 	color: #ffffff;
-	padding: 10px 0;
+	padding: 8px 0;
 	transition: all 0.5s ease;
+	text-decoration: none;
 }
 .header .nav ul li a.active,
 .header .nav ul li a:hover{
@@ -172,8 +181,9 @@ section{
 
 .heading{
   text-align: center;
-  padding:2.5rem 0;
+  padding:2.5rem 1rem;
   font-size: 45px;
+  font-weight: 500px;
 }
 
 .btn{
@@ -241,9 +251,6 @@ section{
   font-size: 1.5rem;
   text-decoration: line-through;
 }
-.container-fluid {
-	width: 1300px;
-	}
 .footer .row {
 	display: flex;
 	flex-wrap: wrap;

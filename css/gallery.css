@@ -19,7 +19,13 @@ body, html {
   font-size: 45px;
    
 }
-
+.border{
+	width: 160px;
+	height: 5px;
+	background:orange;
+	margin:-25px auto;
+	margin-bottom:20px;
+  }
 .container-fluid {
 	position: relative;
 	/*width: 80%;*/
@@ -98,7 +104,7 @@ ul{
 a{
 	text-decoration: none;
 }
-.container{
+.box-container{
 	max-width: 1170px;
 	margin:auto;
 }
@@ -121,10 +127,10 @@ a{
 
 .header .logo,
 .header .nav{
-	padding:10px 15px;
+	padding:5px 15px;
 }
 .header .logo a{
-	font-size: 33px;
+	font-size: 30px;
 	color: #ffffff;
 	text-transform: capitalize;
 }
@@ -134,7 +140,7 @@ a{
 }
 .header .nav ul li a{
 	display: block;
-	font-size: 25px;
+	font-size: 22px;
 	text-transform: capitalize;
 	color: #ffffff;
 	padding: 10px 0;
@@ -218,102 +224,3 @@ a{
    	margin:0;
    }
 }
-.footer.container {
-	
-	max-width: 1370px;
-	margin: auto;
-}
-.footer .row {
-	display: flex;
-	flex-wrap: wrap;
-}
-.footer ul {
-	list-style: none;
-}
-.footer {
-	background-color: #24262b;
-	padding: 20px 0;
-	border-bottom: 1px solid white;
-}
-.footer-col {
-	width: 25%;
-	padding: 0px 25px;
-}
-.footer-col h4{
-	font-size: 22px;
-	color: #ffffff;
-	text-transform: capitalize;
-	margin-bottom: 30px;
-	font-weight: 500;
-	position: relative;
-}
-.footer-col h4::before {
-	content: '';
-	position: absolute;
-	left: 0;
-	bottom: -10px;
-	background-color:orange;
-	height: 2px;
-	box-sizing: border-box;	
-	width: 50px;
-}
-.footer-col ul li:not(:last-child) {
-	margin-bottom: 10px;
-}
-.footer-col ul li a {
-	font-size: 20px;
-	text-transform: capitalize;
-	color: #ffffff;
-	text-decoration: none;
-	font-weight: 300;
-	color: #bbbbbb;
-	display: block;
-	transition: all 0.3s ease;
-}
-.footer-col ul li a:hover {
-	color: #ffffff;
-	padding-left: 8px;
-}
-.footer-col .social-links a{
-	display: inline-block;
-	height: 40px;
-	width: 40px;
-	background-color: rgba(255,255,255,0.2);
-	margin: 0 10px 10px 0;
-	text-align: center;
-	line-height: 40px;
-	border-radius: 50%;
-	color: #ffffff;
-	transition: all 0.5s ease;
-}
-.footer-col .social-links a:hover {
-	color:white;	
-	background-color:orange;
-}
-/*responsive*/
-@media(max-width: 1000px){
-	.footer-col {
-    width: 50%;
-    margin-bottom: 30px;
-}
-}
-@media(max-width: 574px){
-	.footer-col {
-    width: 100%;
-}
-}
-.copyright {
-	text-align:center;
-  	font-size:18px;
-	  padding: 10px;
-	  background:rgba(0,0,0,0.8);
- 	 color: #999;
- 	 margin-bottom:0;
-}
-.tt {
-	font-size: 19px;
-	color: #bbbbbb;
-}
-
-
-
